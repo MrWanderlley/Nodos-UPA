@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: calc(3%);
+    font-size: small;
     /* background-color: red; */
 }
 
