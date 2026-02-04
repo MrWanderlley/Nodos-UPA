@@ -1,8 +1,9 @@
 import React from 'react'
 
-export default function Node({ id, coords }) {
+export default function Node({ id, coords, onClick }) {
     return (
         <div
+        onClick={() => onClick(id)}
         style={{
             position: "absolute",
             left: coords[id].x,

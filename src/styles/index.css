@@ -23,3 +23,9 @@ body {
     background-position: center;
     position: relative;
 }
+
+.info {
+    position: relative;
+    margin: 0;
+    top: 85%;
+}

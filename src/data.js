@@ -1,4 +1,5 @@
 // Representación del campus como grafo ponderado
+
 export const graph = {
     A: { B: 64 },
     B: { A: 64, C: 51, J: 42 },
@@ -40,13 +41,14 @@ export const graph = {
 
 
 // ===================== COORDENADAS =====================
+
 export  const coords = {
     A: { x: 21, y: 515 },
     B: { x: 115, y: 460 },
     C: { x: 195, y: 460 },
     D: { x: 269, y: 470 },
     E: { x: 300, y: 470 },
-    F: { x: 350, y: 490 },
+    F: { x: 345, y: 490 },
     G: { x: 392, y: 477 },
     H: { x: 403, y: 513 },
     I: { x: 465, y: 513 },
