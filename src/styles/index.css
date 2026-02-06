@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: calc(3%);
+    font-size: small;
     /* background-color: red; */
 }
 
@@ -21,4 +22,10 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.info {
+    position: relative;
+    margin: 0;
+    top: 85%;
 }
